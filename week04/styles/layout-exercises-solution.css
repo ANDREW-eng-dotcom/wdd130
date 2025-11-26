@@ -17,8 +17,8 @@ div {
 }
 
 .one {
-    width: 200px;
-    height: 200px;
+    inline-size: 200px;
+    block-size: 200px;
 }
 
 .flex {
@@ -42,7 +42,7 @@ div {
 
 .two {
     background-color: #ace;
-    height: 100px;
+    block-size: 100px;
 }
 
 .container3 {

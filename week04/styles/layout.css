@@ -3,14 +3,14 @@ header {
     display: grid;
     grid-template-columns: 120px 1fr 1fr;
     align-items: center;
-    border-bottom: 1px solid #ccc;
-    max-width: 1000px;
+    border-block-end: 1px solid #ccc;
+    max-inline-size: 1000px;
 }
 
 .logo img {
     margin: 0 0.25rem 0 1rem;
-    width: 64px;
-    height: auto;
+    inline-size: 64px;
+    block-size: auto;
 }
 
 #logo {
@@ -60,7 +60,7 @@ section {
     padding: 1em;
     border: 1px solid rgb(0 0 0 / 10%);
     background-color: #ddd;
-    width: min(800px, 100%);
+    inline-size: min(800px, 100%);
 }
 
 

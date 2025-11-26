@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:var(--body-fonts);
+    color:var(--accent1-color);
+}
+header,main,footer{
+    inline-size:840px;
+    margin:0 auto;
+}
+h1,h2{
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+}
+nav,p,section,article{
+    margin:16px;
+    padding:8px;
+}
+.social media a {
+    text-decoration: none;
+}
+.hero img {
+    display:block;
+    inline-size:100%;
+    block-size:auto;
+}
+h1{
+    position:absolute;
+    inset-block-start:20px;
+    inline-size:100%;
+    padding:16px;
+    text-align: canter;
+    opacity:0.7;
+    background-color: var(--accent1-color);
+    color:#fff;
+}
+.hero article img{
+    float:inline-end;
+    inline-size:125px;
+}

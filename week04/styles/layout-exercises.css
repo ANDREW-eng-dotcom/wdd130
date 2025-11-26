@@ -17,8 +17,8 @@ div {
 }
 
 .one {
-    width: 200px;
-    height: 200px;
+    inline-size: 200px;
+    block-size: 200px;
 }
 
 .flex {
@@ -33,22 +33,20 @@ div {
 
 }
 
-.container2 {
-    /* write declarations here */
-
-}
+/* .container2 ruleset removed because it was empty */
 
 .two {
     background-color: #ace;
-    height: 100px;
+    block-size: 100px;
 }
 
 .container3 {
-    /* write declarations here */
+    display: flex;
 
 }
 
 .columns-3 {
+    column-count: 3;
     /* write declaration here */
 
 }

@@ -11,7 +11,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    max-width: 900px;
+    max-inline-size: 900px;
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;
@@ -30,7 +30,7 @@ p {
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
     background-color: #bed;
-    max-width: 400px;
+    max-inline-size: 400px;
 }
 
 #devtools-btn {
