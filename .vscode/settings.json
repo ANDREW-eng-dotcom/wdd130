@@ -16,7 +16,7 @@
   },
   "editor.parameterHints.enabled": false,
   "editor.suggestOnTriggerCharacters": false,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "off",
   "editor.inlineSuggest.enabled": false,
   
   // Git settings for beginners - simplify source control
@@ -42,5 +42,19 @@
   // Live and Live/Five Server settings
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
-  "liveServer.settings.port": 5504
+  "liveServer.settings.port": 5504,
+  "cSpell.words": [
+    "Hanning",
+    "pipefittings",
+    "upclose"
+  ],
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    ".",
+    "-p",
+    "*test*.py"
+  ],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true
 }

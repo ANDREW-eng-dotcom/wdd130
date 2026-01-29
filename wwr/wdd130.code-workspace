@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"git.confirmSync": false,
+		"explorer.fileNesting.expand": false,
+		"explorer.compactFolders": false,
+		"explorer.decorations.colors": false,
+		"explorer.decorations.badges": false,
+		"explorer.openEditors.minVisible": 0,
+		"explorer.autoOpenDroppedFile": false,
+		"workbench.tree.indent": 25,
+		"fiveServer.port": 5501,
+		"fiveServer.injectBody": false
+	}
+}

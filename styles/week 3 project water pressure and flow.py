@@ -71,14 +71,14 @@ def main():
         diameter,
         velocity,
         reynolds,
-        HDPE_SDR11_INNER_DIAMETER
+        "HDPE"_SDR11_INNER_DIAMETER
     )
     pressure += loss
 
-    diameter = HDPE_SDR11_INNER_DIAMETER    
-    friction = HDPE_SDR11_FRICTION_FACTOR
+    diameter = "HDPE"_SDR11_INNER_DIAMETER    
+    friction = "HDPE"_SDR11_FRICTION_FACTOR
     velocity = HOUSEHOLD_VELOCITY
-    loss = pressure_loss_from_pipefittings(diameter, length2, friction, velocity) 
+    loss = pressure_loss_from_pipe fitting (diameter, length2, friction, velocity) 
     pressure += loss
 
     print(f"Net pressure at house: {pressure:.1f} kPa")
